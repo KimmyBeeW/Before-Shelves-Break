@@ -306,7 +306,7 @@ a:hover {
 
 .poem {
   font-family: var(--font-display);
-  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  font-size: clamp(1rem, 2vw, 1.25rem);
   line-height: 2;
   color: var(--cream-dark);
 }
@@ -329,12 +329,16 @@ a:hover {
   display: block;
 }
 
-/* Standard verses: first 2 lines red, last 3 cream */
+/* red */
 .poem .line--red {
   color: var(--terracotta-mid);
 }
 
-/* Last verse: last 3 lines gold */
+.poem .line--white {
+  color: var(--cream);
+}
+
+/* gold */
 .poem .line--gold {
   color: var(--gold);
 }
