@@ -537,11 +537,10 @@ a:hover {
 .resources-section {
   max-width: 900px;
   margin: 0 auto;
-  padding: var(--space-lg) var(--space-md) var(--space-xl);
+  padding: var(--space-lg) var(--space-md) var(--space-sm);
 }
 
 .resource-category {
-  margin-bottom: var(--space-xl);
   opacity: 0;
   animation: fadeSlideUp 0.8s ease-out forwards;
 }
